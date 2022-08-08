@@ -1,0 +1,17 @@
+const PI = 3.14;
+PI = 42;  /// this will throw an error
+
+    What is the difference between var and let?
+    var has a global scope while let has a block scope, var can be redeclared, while let can not.
+    
+    What is the difference between var and const?
+    var is global scope while const is a block scope, var can be redeclared or reassigned, while const can only be mutated and nor 
+    redeclared or reassigned.
+    
+    What is the difference between let and const?
+    let can be reassigned, const cannot be.
+    
+    What is hoisting?
+    the ability of the code to know that there has been a termed declared but it hasent reached that part in the code yet 
+    so it is undefined. var has the ability to do that because it has a global scope but the others do not so it only works for var
+
